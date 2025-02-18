@@ -48,6 +48,7 @@ secureme==0.0.4
 gpytranslate
 googletrans
 openai
+IMDbPY
 
 # Bibliothèques utilitaires
 python-dotenv==0.21.1
