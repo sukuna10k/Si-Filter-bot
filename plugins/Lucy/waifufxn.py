@@ -20,7 +20,7 @@ def get_animation(api_token, animation_type):
 
 # Gestionnaires de commandes pour diverses animations
 @Client.on_message(filters.command(["punch", "slap", "lick", "kill", "kick", "hug", "bite", "kiss", "highfive"]) & ~filters.forwarded & ~filters.via_bot)
-def animation_command(client, message):
+async def animation_command(client, message):
     try:
         sender = message.from_user.mention(style='markdown')
         target = sender if not message.reply_to_message else message.reply_to_message.from_user.mention(style='markdown')
@@ -43,9 +43,9 @@ def animation_command(client, message):
 
         if gif_url:
             msg = f"{sender} {commands[command]['text']} {target}! {commands[command]['emoji']}"
-            message.reply_animation(animation=gif_url, caption=msg)
+            await message.reply_animation(animation=gif_url, caption=msg)
         else:
-            message.reply_text("Impossible de récupérer l'animation. Veuillez réessayer.")
+            await message.reply_text("Impossible de récupérer l'animation. Veuillez réessayer.")
         
     except Exception as e:
-        message.reply_text(f"Une erreur inattendue s'est produite : {str(e)}")
+        await message.reply_text(f"Une erreur inattendue s'est produite : {str(e)}")

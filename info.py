@@ -73,7 +73,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Lucy")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Hokage")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
@@ -110,7 +110,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Lucy_Filter_bot")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Hokage_Filter_bot")
 BOT_NAME = environ.get("BOT_NAME", "𝐋ᴜᴄʏ")
 BOT_ID = environ.get("BOT_ID", "6040310745")
 S_GROUP = environ.get('S_GROUP', "weebs_support")

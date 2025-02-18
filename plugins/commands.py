@@ -49,10 +49,10 @@ async def send_chatmsg(bot, message):
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    try:
-        await message.react(emoji=random.choice(REACTIONS), big=True)
-    except:
-        await message.react(emoji="⚡️", big=True)
+    # try:
+    #     await message.react(emoji=random.choice(REACTIONS), big=True)
+    # except:
+    #     await message.react(emoji="⚡️", big=True)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
                     InlineKeyboardButton('• Ajouter moi à votre chat •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
@@ -120,9 +120,9 @@ async def start(client, message):
             has_spoiler=True  
         )
         try:
-            await m.react(emoji=random.choice(REACTIONS), big=True)
+            await message.react(emoji=random.choice(REACTIONS), big=True)
         except:
-            await m.react(emoji="⚡️", big=True)
+            await message.react(emoji="⚡️", big=True)
         return
         
     if AUTH_CHANNEL and not await is_req_subscribed(client, message):
@@ -1265,7 +1265,7 @@ async def donate_command(client, message):
 async def help_command(client, message):
     buttons = [
         [
-            InlineKeyboardButton("• Ouvrir en privé •", url="https://t.me/Lucy_Filter_bot?start=help"),
+            InlineKeyboardButton("• Ouvrir en privé •", url="https://t.me/Hokage_Filter_bot?start=help"),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)

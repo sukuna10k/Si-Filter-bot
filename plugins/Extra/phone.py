@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrogram import Client, filters,enums
 import aiohttp
 import json
 
@@ -48,7 +48,7 @@ async def check_phone(client, message):
                     f"📡 **Opérateur :** `{carrier}`\n"
                     f"☎️ **Type de ligne :** `{line_type}`\n"
                 )
-                await message.reply_text(response_text, parse_mode="markdown")
+                await message.reply_text(response_text, parse_mode=enums.ParseMode.HTML)
 
     except Exception as e:
         await message.reply_text(f"❌ Une erreur s'est produite : {e}")

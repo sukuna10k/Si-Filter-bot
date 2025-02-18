@@ -2,12 +2,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Codeflix-Bots/Lucy.git /Lucy
+  git clone https://github.com/Codeflix-Bots/Hokage.git /Hokage
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Lucy
+  git clone $UPSTREAM_REPO /Hokage
 fi
-cd /Lucy
+cd /Hokage
 pip3 install -U -r requirements.txt
 echo "sᴛᴀʀᴛɪɴɢHokage ʙᴏᴛ...."
 python3 bot.py

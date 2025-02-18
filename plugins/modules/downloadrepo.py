@@ -5,9 +5,9 @@ import os
 
 
 @Client.on_message(filters.command(["downloadrepo"]))
-def download_repo(_, message):
+async def download_repo(_, message):
     if len(message.command) != 2:
-        message.reply_text("Please provide the GitHub repository URL after the command. Example: /downloadrepo Repo Url ")
+        await message.reply_text("Please provide the GitHub repository URL after the command. Example: /downloadrepo Repo Url ")
         return
 
     repo_url = message.command[1]
@@ -15,10 +15,10 @@ def download_repo(_, message):
 
     if zip_path:
         with open(zip_path, "rb") as zip_file:
-            message.reply_document(zip_file)
+           await message.reply_document(zip_file)
         os.remove(zip_path)
     else:
-        message.reply_text("Unable to download the specified GitHub repository.")
+        await message.reply_text("Unable to download the specified GitHub repository.")
 
 
 def download_and_zip_repo(repo_url):

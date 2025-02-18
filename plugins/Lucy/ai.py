@@ -35,8 +35,12 @@ async def chatgpt(_, message):
 
 
 
+from pyrogram import Client, filters
+from pyrogram.types import InputMediaPhoto
+from pyrogram.errors import MediaCaptionTooLong
+
 @Client.on_message(filters.command(["bard", "gemini"]))
-async def bard(_, message):
+async def bard(client, message):  # Utilisez `client` au lieu de `_` pour plus de clarté
     chat_id = message.chat.id
     message_id = message.id
     
@@ -47,7 +51,7 @@ async def bard(_, message):
     txt = await message.reply_text("Wait patiently, requesting to API...")
     await txt.edit("💭")
     
-    api_response, images = fetch_data(api_url_bard, query)
+    api_response, images = fetch_data(api_url_bard, query)  # Assurez-vous que `fetch_data` est définie
 
     medias = []
     bard = str(api_response)
@@ -55,7 +59,6 @@ async def bard(_, message):
        photo_url = images[-1]
     except:
         pass
-    
     
     if images:
         if len(images) > 1:
@@ -65,7 +68,8 @@ async def bard(_, message):
             medias[-1] = InputMediaPhoto(media=photo_url, caption=bard)
             
             try:
-                await Client.send_media_group(chat_id=chat_id, media=medias, reply_to_message_id=message_id)
+                # Utilisez `client` (instance de Client) pour appeler `send_media_group`
+                await client.send_media_group(chat_id=chat_id, media=medias, reply_to_message_id=message_id)
                 return await txt.delete()
             except Exception as e:
                 return await txt.edit(str(e))
@@ -79,7 +83,7 @@ async def bard(_, message):
             except Exception as e:
                 return await txt.edit(str(e))
         else:
-            return await txt.edit('Somthing went wrong')
+            return await txt.edit('Something went wrong')
     else:
         try:
             return await txt.edit(bard)

@@ -1,3 +1,4 @@
+import os
 import httpx, base64
 from pyrogram import Client, filters
 
@@ -40,8 +41,9 @@ async def upscale_image(client, message):
             await client.send_document(
                 message.chat.id,
                 document=upscaled_file_path,
-                caption=f"✦ Généré par ➠ [Lucy](https://t.me/HokageMovie_bot)\n\n✦ Mise à jour ➠ [CodeFlix Bots](https://t.me/hyoshassistantbot)",
+                caption=f"✦ Généré par ➠ [Hokage](https://t.me/HokageMovie_bot)\n\n✦ Mise à jour ➠ [hyosh Coder](https://t.me/hyoshassistantbot)",
             )
+            os.remove(upscaled_file_path)
         else:
             await message.reply_text("✦ Veuillez répondre à une image pour l'agrandir.")
 

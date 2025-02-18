@@ -15,7 +15,7 @@ async def check_bin(client, message):
     except:
         pass
     aux = await message.reply_text("<b>Aᴀʜ, ᴀᴛᴛᴇɴᴅᴇᴢ, ᴅᴏɴɴᴇᴢ-ᴍᴏɪ ᴜɴ �ᴇᴜ ᴘᴇᴜ ᴅᴇ ᴛᴇᴍᴘs...</b>")
-    bin = message.text.split(None, 1)[1]
+    bin = message.split(None, 1)[1]
     await client.send_message(LOG_CHANNEL, text=f"#bin_check\nDemandé par : {message.from_user.mention}\nʟᴀ ᴅᴇᴍᴀɴᴅᴇ ᴇsᴛ {bin}")
     if len(bin) < 6:
         return await aux.edit("<b>Oᴏᴘs, ᴍᴏɴ ᴀᴍɪ, ғᴏʀᴍᴀᴛ ɪɴᴄᴏʀʀᴇᴄᴛ. Vᴇᴜɪʟʟᴇᴢ ᴍᴇ ᴅᴏɴɴᴇʀ ᴜɴ ʙɪɴ ᴠᴀʟɪᴅᴇ.</b>")
