@@ -7,27 +7,24 @@ import logging
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
 
-DB_NAME = DATABASE_NAME
-DB_URI = DATABASE_URI
-
-mongo_client = AsyncIOMotorClient(DB_URI)
+mongo_client = AsyncIOMotorClient(DATABASE_URI)
 db = mongo_client.wbb
 
 
 afkusers = db.afkusers
 chatb = db.chatbot
 
-myapp = pymongo.MongoClient(DB_URI)
+myapp = pymongo.MongoClient(DATABASE_URI)
 dbx = myapp["AsyncIOMotorCursor"]
 federation = dbx['federation']
 nm = dbx['Nightmode']
 
 try:
-    alita_db_client = MongoClient(DB_URI)
+    alita_db_client = MongoClient(DATABASE_URI)
 except PyMongoError as f:
     LOGGER.error(f"Error in Mongodb: {f}")
     exit(1)
-alita_main_db = alita_db_client[DB_NAME]
+alita_main_db = alita_db_client[DATABASE_NAME]
 
 
 class MongoDB:
