@@ -140,7 +140,7 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 LANGUAGES = ["francais", "", "vf", "", "english", "", "vostfr", ""]
 
-SEASONS = ["saison 1" , "saison 2" , "saison 3" , "saison 4", "saison 5" , "saison 6" , "saison 7" , "saison 8" , "saison 9" , "saison 10"]
+SEASONS = ["S01" , "S02" , "S03" , "S04", "S05" , "S06" , "S07" , "S08" , "S09" , "S010"]
 
 QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160P", "", "UHD", "", "HD", "", "SD", "", "FHD", "", "4K", "", "8K", ""]
 
