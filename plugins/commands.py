@@ -60,7 +60,7 @@ async def start(client, message):
                     InlineKeyboardButton('• Master •', url="https://t.me/sewxiy"),
                     InlineKeyboardButton('• Support •', url='https://t.me/weebs_support')
                 ],[
-                    InlineKeyboardButton('• Rejoindre le canal des mises à jour •', url="https://t.me/codeflix_bots")
+                    InlineKeyboardButton('• Rejoindre le canal des mises à jour •', url="https://t.me/hyoshcoder")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(Script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -138,7 +138,7 @@ async def start(client, message):
                     ),
                     InlineKeyboardButton(
                         text="• Mises à jour •",
-                        url="https://t.me/codeflix_bots"
+                        url="https://t.me/hyoshcoder"
                     ),
                 ]
                 
@@ -1276,7 +1276,7 @@ async def support_command(client, message):
     buttons = [
         [
             InlineKeyboardButton("Support", url="https://t.me/weebs_support"),
-            InlineKeyboardButton("Mises à jour", url="https://t.me/codeflix_bots")
+            InlineKeyboardButton("Mises à jour", url="https://t.me/hyoshcoder")
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)

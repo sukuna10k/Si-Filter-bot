@@ -88,7 +88,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙ�
 - [x] ɪᴅ ᴀɴᴅ ᴜsᴇʀ ɪɴғᴏ
 - [x] ᴏᴛʜᴇʀ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs
 
-<b>ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs, ᴊᴏɪɴ ᴏᴜʀ  <a href='https://t.me/codeflix_bots'>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a>.</b>
+<b>ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs, ᴊᴏɪɴ ᴏᴜʀ  <a href='https://t.me/hyoshcoder'>ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ</a>.</b>
 </details>
 
 <details><summary><b> - ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs :</summary>
@@ -133,7 +133,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙ�
 <a href="https://telegram.me/weebs_support"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
-<a href="https://telegram.me/codeflix_bots"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/hyoshcoder"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━
