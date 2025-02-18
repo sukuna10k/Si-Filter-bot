@@ -14,6 +14,7 @@ aiohttp
 aiofiles
 uvloop
 httpx
+telethon
 
 # Bibliothèques pour le traitement vidéo/audio
 opencv-python-headless>=4.7.0.68
