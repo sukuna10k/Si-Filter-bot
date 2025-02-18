@@ -1,114 +1,87 @@
- https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
- tgcrypto 
- pymongo[srv]==3.12.3 
- motor==2.5.1 
- marshmallow==3.14.1 
- umongo==3.0.1 
- requests 
- bs4 
- git+https://github.com/Joelkb/cinemagoer 
- shortzy 
- datetime 
- pytz 
- aiohttp
+# Bibliothèques principales
+pyrogram
+tgcrypto
+pymongo
+motor
+marshmallow
+umongo
+requests
+bs4
+shortzy
+datetime
+pytz
+aiohttp
+aiofiles
+uvloop
+httpx
 
-#---master---# 
- #Telethroid==0.0.10 
- PyLeaves==1.0.2 
-  
-  
- #---others----# 
- opencv-python-headless==4.7.0.68 
- python-dotenv==0.21.1 
- speedtest==0.0.1 
- humanize==4.6.0 
- Pillow
- psutil==5.9.4 
- NumPy 
- wheel 
- ujson 
- wget 
- aiofiles
- dnspython==2.3.0
-python-decouple
+# Bibliothèques pour le traitement vidéo/audio
+opencv-python-headless>=4.7.0.68
 ffmpeg-python>=0.2.0
-jinja2
-apscheduler
-pyshorteners
-colorama
-search_engine_parser
-ffmpeg
+moviepy==1.0.3
+pydub
+gtts
+SpeechRecognition
+yt-dlp
+pytube
 youtube-search-python==1.4.6
 youtube-dl
-pyshorteners
-countryinfo
-python-math
-psutil==5.9.4
-speedtest-cli
-python-dotenv
-python-telegram-bot==12.8
-doodstream
-unshortenit
-python-decouple
-ytthumb
-YoutubeTags
-beautifulsoup4
-motor
-python-docx
-speedtest
-yt-dlp
-python-dateutil
+pafy
+
+# Bibliothèques pour les API et services externes
+SafoneAPI
+MukeshAPI
+HorridAPI
+lexica-api
 google-generativeai
-datetime>=4.4
-psutil==5.9.4
-asyncio
-chardet
-urllib3
-pycryptodomex
-wheel
-six
 googlesearch-python
 spotipy
 scdl
-tqdm
-ujson
-wget
-spotipy
-pafy
-ffmpeg
-asyncio
-pytube
-youtube-search
-youtube-search-python
-spotdl
-wget
-discord
-moviepy==1.0.3
 shazamio
 telegraph
 PyPDF2
 pypdf
-pyrogram>=2.0.106
 Faker
-telethon
-sqlalchemy
-SafoneAPI
-gtts
-pydub
-sqlalchemy
-pyfiglet
 jikanpy==4.3.2
 html2text==2024.2.26
 secureme==0.0.4
 gpytranslate
 googletrans
-lexica-api
-SpeechRecognition
+openai
+
+# Bibliothèques utilitaires
+python-dotenv==0.21.1
+speedtest-cli
+humanize==4.6.0
+Pillow
+psutil==5.9.4
+numpy
+wheel
+ujson
+wget
+dnspython==2.3.0
+python-decouple
+jinja2
+apscheduler
+pyshorteners
+colorama
+search_engine_parser
+countryinfo
+python-math
+python-dateutil
+chardet
+urllib3
+pycryptodomex
+six
+tqdm
+discord
 gitpython
 pyromod==1.5
-uvloop
-lexica-api
-MukeshAPI
-httpx
-HorridAPI
-openai
+pyfiglet
+
+# Bibliothèques pour Telegram
+python-telegram-bot>=20.0  # Ajout de python-telegram-bot
+
+# Dépendances optionnelles ou alternatives
+# Telethroid==0.0.10  # (Optionnel, si nécessaire)
+# PyLeaves==1.0.2     # (Optionnel, si nécessaire)
