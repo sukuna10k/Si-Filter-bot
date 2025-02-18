@@ -142,9 +142,9 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙ�
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[sᴜʙᴀʀᴜ](https://github.com/sewxiy)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/kalebavincent/hokage_autofilter-bot.git) </b>
+- <b>[hyosh coder](https://github.com/kalebavincent)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/kalebavincent/hokage_autofilter-bot.git) </b>
  
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/kalebavincent/hokage_autofilter-bot.git/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢHokage ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/kalebavincent/hokage_autofilter-bot.git/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ Hokage ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
 ━━━━━━━━━━━━━━━━━━━━
 
