@@ -93,7 +93,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # Referal Settings
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'sewxiy') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'hyoshcoder') # owner username without @
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195')) #Log channel id ( make sure bot is admin )
 DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002067012611'))
@@ -113,7 +113,7 @@ PORT = environ.get("PORT", "8080")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Hokage_Filter_bot")
 BOT_NAME = environ.get("BOT_NAME", "𝐋ᴜᴄʏ")
 BOT_ID = environ.get("BOT_ID", "6040310745")
-S_GROUP = environ.get('S_GROUP', "weebs_support")
+S_GROUP = environ.get('S_GROUP', "hyoshcoder")
 S_CHANNEL = environ.get('S_CHANNEL', "hyoshcoder")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/hyoshcoder')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/team_netflix')

@@ -57,8 +57,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('• Ajouter moi à votre chat •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• Master •', url="https://t.me/sewxiy"),
-                    InlineKeyboardButton('• Support •', url='https://t.me/weebs_support')
+                    InlineKeyboardButton('• Master •', url="https://t.me/hyoshcoder"),
+                    InlineKeyboardButton('• Support •', url='https://t.me/hyoshcoder')
                 ],[
                     InlineKeyboardButton('• Rejoindre le canal des mises à jour •', url="https://t.me/hyoshcoder")
                   ]]
@@ -1275,7 +1275,7 @@ async def help_command(client, message):
 async def support_command(client, message):
     buttons = [
         [
-            InlineKeyboardButton("Support", url="https://t.me/weebs_support"),
+            InlineKeyboardButton("Support", url="https://t.me/hyoshcoder"),
             InlineKeyboardButton("Mises à jour", url="https://t.me/hyoshcoder")
         ]
     ]
