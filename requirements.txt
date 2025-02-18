@@ -24,7 +24,7 @@ gtts
 SpeechRecognition
 yt-dlp
 pytube
-youtube-search-python==1.4.6
+youtube-search-python
 youtube-dl
 pafy
 
@@ -49,6 +49,8 @@ gpytranslate
 googletrans
 openai
 IMDbPY
+youtube-search
+
 
 # Bibliothèques utilitaires
 python-dotenv==0.21.1
