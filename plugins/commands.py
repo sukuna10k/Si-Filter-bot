@@ -1,4 +1,4 @@
-# credit @codeflix_bots
+# credit @hyoshcoder
 
 import os
 import logging
