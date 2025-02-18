@@ -27,6 +27,8 @@ yt-dlp
 pytube
 youtube-search-python
 youtube-dl
+YoutubeTags
+ytthumb
 pafy
 
 # Bibliothèques pour les API et services externes
