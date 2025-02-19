@@ -613,7 +613,7 @@ async def verify_user(bot, userid, token):
         await db.add_user(user.id, user.first_name)
         await bot.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(user.id, user.mention))
     TOKENS[user.id] = {token: True}
-    tz = pytz.timezone('UTC')
+    tz = pytz.timezone('Africa/kinshasa')
     today = date.today()
     VERIFIED[user.id] = str(today)
 
@@ -656,7 +656,7 @@ async def check_verification(bot, userid):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
         await bot.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(user.id, user.mention))
-    tz = pytz.timezone('UTC')
+    tz = pytz.timezone('Africa/kinshasa')
     today = date.today()
     if user.id in VERIFIED.keys():
         EXP = VERIFIED[user.id]

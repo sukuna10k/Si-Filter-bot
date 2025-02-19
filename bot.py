@@ -81,7 +81,7 @@ async def Lazy_start():
     logging.info(LOG_STR)
     logging.info(script.LOGO)
     
-    tz = pytz.timezone('UTC')
+    tz = pytz.timezone('Africa/kinshasa')
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
