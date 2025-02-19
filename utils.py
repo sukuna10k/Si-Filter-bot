@@ -274,16 +274,17 @@ def extract_user(message: Message) -> Union[int, str]:
         user_first_name = message.from_user.first_name
     return (user_id, user_first_name)
 
-def list_to_str(k):
-    if not k:
+def list_to_str(k, max_elm=None):
+    if not k:  
         return "N/A"
-    elif len(k) == 1:
-        return str(k[0])
-    elif MAX_LIST_ELM:
-        k = k[:int(MAX_LIST_ELM)]
-        return ' '.join(f'{elem}, ' for elem in k)
-    else:
-        return ' '.join(f'{elem}, ' for elem in k)
+    
+    if not isinstance(k, list):
+        return str(k)
+    
+    if max_elm is not None and isinstance(max_elm, int) and max_elm > 0:
+        k = k[:max_elm]  
+    
+    return ', '.join(map(str, k))
 
 def last_online(from_user):
     time = ""

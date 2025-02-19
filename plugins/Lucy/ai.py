@@ -40,7 +40,7 @@ from pyrogram.types import InputMediaPhoto
 from pyrogram.errors import MediaCaptionTooLong
 
 @Client.on_message(filters.command(["bard", "gemini"]))
-async def bard(client, message):  # Utilisez `client` au lieu de `_` pour plus de clarté
+async def bard(client, message): 
     chat_id = message.chat.id
     message_id = message.id
     
@@ -51,7 +51,7 @@ async def bard(client, message):  # Utilisez `client` au lieu de `_` pour plus d
     txt = await message.reply_text("Wait patiently, requesting to API...")
     await txt.edit("💭")
     
-    api_response, images = fetch_data(api_url_bard, query)  # Assurez-vous que `fetch_data` est définie
+    api_response, images = fetch_data(api_url_bard, query) 
 
     medias = []
     bard = str(api_response)
@@ -99,7 +99,7 @@ async def chat_gpt(bot, message):
 
         if len(message.command) < 2:
             await message.reply_text(
-                "**ʜᴇʏ ʙᴀʙᴇ, ɪ ᴀᴍ ʟᴜᴄʏ ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏᴅᴀʏ?**"
+                "**ʜᴇʏ ʙᴀʙᴇ, ɪ ᴀᴍ Hokage ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏᴅᴀʏ?**"
             )
         else:
             a = message.text.split(' ', 1)[1]

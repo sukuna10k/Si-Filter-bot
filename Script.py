@@ -973,7 +973,6 @@ Message : <b>{}</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Requête : {query}
-
 Données IMDb :
 
 ‣ Titre : <a href="{url}">{title}</a>
