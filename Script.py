@@ -973,18 +973,20 @@ Message : <b>{}</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Requête : {query}
+
 Données IMDb :
 
-‣ Titre : <a href={url}>{title}</a>
+‣ Titre : <a href="{url}">{title}</a>
 ‣ Genres : {genres}
-‣ Année : <a href={url}/releaseinfo>{year}</a>
-‣ Note : <a href={url}/ratings>{rating}</a> / 10 (Basée sur {votes} évaluations d'utilisateurs)
-‣ Langue : <code>{languages}</code></a>
-‣ Durée : {runtime} minutes</a>
+‣ Année : {year}
+‣ Note : {rating} / 10 (Basée sur {votes} évaluations d'utilisateurs)
+‣ Langue : <code>{languages}</code>
+‣ Durée : {runtime} minutes
 
 ‣ Histoire : {plot}
 
-‣ Requis par : {message.from_user.mention}</b>"""
+‣ Requis par : {message.from_user.mention}</b>
+"""
 
     RESTART_TXT = """
 <b>Bot redémarré !
