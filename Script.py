@@ -2,21 +2,21 @@ class script(object):
     
     START_TXT = """<b>Salut <spoiler>{}</spoiler>,
 
-Je suis le bot de filtrage automatique le plus puissant avec des fonctionnalités premium. Ajoutez-moi simplement à votre groupe et profitez-en !
+Je suis le bot de filtrage automatique le plus puissant avec des fonctionnalités premium. Ajoutez-moi simplement à votre groupe et profitez-en et je peux gérer aussi vos groupe !
 
-‣ Maintenu par : <a href='https://telegram.me/hyoshassistantbot'>Hyosh Coder</a></b>
+‣ Maintenu par : <a href='https://telegram.me/BotZFlix'>𝔹𝕠𝕥🇿𝗙𝗹𝗶𝘅</a></b>
 """
-    GSTART_TXT = """<b>Salut {},\n\nJe suis le bot de filtrage automatique le plus puissant avec des fonctionnalités premium.\n\nMaintenu par : <a href="https://t.me/hyoshassistantbot">HYOSHCODER</a></b>"""
+    GSTART_TXT = """<b>Salut {},\n\nJe suis le bot de filtrage automatique le plus puissant avec des fonctionnalités premium.\n\nMaintenu par : <a href="https://t.me/BotZFlix">𝔹𝕠𝕥🇿𝗙𝗹𝗶𝘅</a></b>"""
 
     HELP_TXT = """<b>Cliquez sur le bouton ci-dessous pour obtenir une description des commandes spécifiques !</b>"""
 
     ABOUT_TXT = """
 <b>❍ Nom : {}</b>
-<b>❍ Créateur : <a href="https://t.me/hyoshassistantbot">HYOSHCODER</a></b>
+<b>❍ Créateur : <a href="https://t.me/Kingcey">🇰ιηg¢єу</a></b>
 <b>❍ Bibliothèque : <a href="https://pyrogram.org/">Pyrogram</a></b>
 <b>❍ Langage : <a href="https://www.python.org/">Python</a></b>
 <b>❍ Base de données : <a href="https://www.mongodb.com/">MongoDB</a></b>
-<b>❍ Hébergé sur : <a href="https://t.me/hyoshassistantbot">VPS</a></b>
+<b>❍ Hébergé sur : <a href="https://t.me/AntiFlix_A">Render</a></b>
 <b>❍ Version : v4.4.1</b>
 
 ➲ Je restreins les utilisateurs, filtre automatiquement, et offre une gestion complète des utilisateurs.<br>
@@ -28,7 +28,7 @@ Je suis le bot de filtrage automatique le plus puissant avec des fonctionnalité
     SUBSCRIPTION_TXT = """
 <b>Partagez votre lien avec vos amis, votre famille, vos chaînes et vos groupes pour obtenir gratuitement un abonnement premium pour {}
 
-Lien de parrainage - https://telegram.me/{}?start=Hokage-{}
+Lien de parrainage - https://telegram.me/{}?start=BotZFlix-{}
 
 Si {} utilisateur unique démarre le bot avec votre lien de parrainage, vous serez automatiquement ajouté à la liste premium.
 
@@ -36,16 +36,16 @@ Achetez un plan payant avec - /plan</b>"""
 
     SOURCE_TXT = """
 Hey,  
-C'est Hokage,  
+C'est Marsh ƈɾσɯ,  
 un bot Telegram open source d'auto-filtrage avec des modules d'intelligence artificielle et de gestion de groupes.  
 
 Écrit en Python avec l'aide de <a href='https://github.com/pyrogram/pyrogram'>Pyrogram</a> et <a href='https://github.com/python-telegram-bot/python-telegram-bot'>Python-Telegram-Bot</a>,  
 et utilisant <a href='https://cloud.mongodb.com'>Mongo</a> comme base de données.  
 
-» Voici mon code source : <a href='https://github.com/kalebavincent/hokage_autofilter-bot.git'>GitHub</a>  
+» Voici mon code source : <a href='https://heroku.com'>Heroku Git</a>  
 
-Hokage est sous licence <a href='https://github.com/kalebavincent/hokage_autofilter-bot.git/blob/Hokage-main/LICENSE'>MIT</a>.  
-© 2023 - 2024 | <a href='https://t.me/promo_prenium_groupe'>Support Chat</a>, tous droits réservés.
+Hokage est sous licence <a href='https://LICENSE'>MIT</a>.  
+© 2023 - 2024 | <a href='https://t.me/BotZFlix_Support'>Support Chat</a>, tous droits réservés.
 """
 
     MAIN_TXT = """
@@ -59,8 +59,8 @@ Consultez votre module favori
     CHANNELS = """
 <b>Cliquez sur les boutons ci-dessous pour rejoindre les chaînes et obtenir plus d'informations sur nous.</b>  
 
-Si vous trouvez un bug dans « Hokage » ou si vous souhaitez donner un retour sur le bot,  
-veuillez le signaler ici : <a href='https://t.me/promo_prenium_groupe'>Support Chat</a>.
+Si vous trouvez un bug dans « Marsh ƈɾσɯ » ou si vous souhaitez donner un retour sur le bot,  
+veuillez le signaler ici : <a href='https://t.me/BotZFlix_Support'>Support Chat</a>.
 """
 
     DONATE = """
@@ -77,7 +77,7 @@ Si vous avez des moyens de nous aider, faites-le généreusement. Vos contributi
 Vous pouvez soutenir le développement en faisant un don :  
 UPI : Gautam8292@fam  
 
-Envoyez une capture d'écran ici : @hyoshdesign</b>
+Envoyez une capture d'écran ici : @kingcey</b>
 """
 
     SETTINGS_TXT = """
@@ -140,7 +140,7 @@ Aide : <b>Filtres</b>
 3. Les boutons doivent être correctement formatés en markdown.
 
 Boutons URL :
-<code>[Texte du bouton](buttonurl:https://t.me/hyoshassistantbot)</code>
+<code>[Texte du bouton](buttonurl:https://t.me/botzflix)</code>
 
 Boutons d'alerte :
 <code>[Texte du bouton](buttonalert:Ceci est un message d'alerte)</code>"""
@@ -161,15 +161,15 @@ Boutons d'alerte :
 
 ◈ <b>Recherchez un film avec une orthographe correcte :</b>
 • avatar 2009 ✅
-• avatar hindi ✅
-• avatar movie ❌
-• avatar hindi dubbed..❌
+• avatar VF ✅
+• avatar film ❌
+• avatar serie..❌
 
 ◈ <b>Recherchez une série web dans ce format :</b>
 • vikings S01 ✅
 • vikings S01E01 ✅
-• vikings S01 hindi ✅
-• vikings S01 hindi dubbed... ❌
+• vikings S01 VF ✅
+• vikings S01 series... ❌
 • vikings saison 1 ❌
 • vikings série web ❌
 
@@ -287,7 +287,7 @@ Cette commande vous aide à signaler un message ou un utilisateur aux admins du 
 /report @admin - Pour signaler un utilisateur aux admins (répondre à un message).</b>"""
 
     HYOSHCODER = """
-<b>C'est le bot Hokage 🦚,
+<b>C'est le bot Marsh ƈɾσɯ 🦚,
 Un puissant bot stable et mignon pour filtrer et gérer Telegram.</b>"""
 
     GEN_PASS = """<b>Générateur de mot de passe</b>
